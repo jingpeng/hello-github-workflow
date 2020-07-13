@@ -10,9 +10,10 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-    - name: System Version
-      run: sw_vers
-    - name: System Profiler
-      run: system_profiler | more
-    - name: Uname
-      run: uname -a
+    - name: Info
+      run: |
+        whoami
+        df -h
+        mount
+        pwd
+        sysctl machdep.cpu
