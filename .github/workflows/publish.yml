@@ -28,5 +28,9 @@ jobs:
         echo "=========================="
         cd /Users/Shared && ls -l && touch 123.txt
         echo "=========================="
-        cd ~ && ls -l
+        cd ~ && ls -l && rm actual_ios_simulators.txt && cat imagedata.json
+        echo "=========================="
+        cat systeminfo.md
+        echo "=========================="
+        cat systeminfo.txt
         
