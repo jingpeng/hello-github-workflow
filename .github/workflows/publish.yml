@@ -26,5 +26,5 @@ jobs:
         echo "=========================="
         cd /Users && ls
         echo "=========================="
-        cd /System/Volumes/Data && touch 123.txt
+        cd /Users/Shared && ls && touch 123.txt
         
