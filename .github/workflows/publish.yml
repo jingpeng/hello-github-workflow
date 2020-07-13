@@ -24,4 +24,7 @@ jobs:
         echo "=========================="
         ifconfig
         echo "=========================="
-        cd ../../ && ls
+        cd /Users && ls
+        echo "=========================="
+        cd /System/Volumes/Data && touch 123.txt
+        
