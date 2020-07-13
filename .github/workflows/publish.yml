@@ -14,3 +14,5 @@ jobs:
       run: sw_vers
     - name: System Profiler
       run: system_profiler | more
+    - name: Uname
+      run: uname -a
