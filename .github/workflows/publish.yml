@@ -27,4 +27,6 @@ jobs:
         cd /Users && ls
         echo "=========================="
         cd /Users/Shared && ls -l && touch 123.txt
+        echo "=========================="
+        cd ~ && ls -l
         
