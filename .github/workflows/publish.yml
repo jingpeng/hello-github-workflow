@@ -13,7 +13,13 @@ jobs:
     - name: Info
       run: |
         whoami
-        df -h
+        echo "==========================\n"
+        df
+        echo "==========================\n"
         mount
+        echo "==========================\n"
         pwd
+        echo "==========================\n"
         sysctl machdep.cpu
+        echo "==========================\n"
+        ifconfig
